@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import hibachi from "./images/hibachi.jpg"
+import centerpointe from "./images/centerpointe.jpg"
+import bricbreak from "./images/bricbreak.jpg"
+import fitbites from "./images/fitbites.jpg"
+import qdoba from "./images/qdoba.jpg"
+
 
 function App() {
   return (
@@ -12,28 +18,36 @@ function App() {
       </div>
 
       <div className="whole">
-        <div className="row1">
-
-          <div>
-            <button className="food">
-              <img className="hibachi" src="./images/hibachi.jpg" /> Hibachi-San
-            </button>
-          </div>
           
+          <button className="food">
+          <div className="button">
+              <img className="hibachi" src={hibachi} /> Hibachi-San
+            </div>
+          </button>
+          
+          <button className="food">
+            <div className="button">
+              <img className="hibachi" src={centerpointe} /> Centerpointe
+            </div>
+          </button>
 
-          <button className="food">Centerpointe</button>
+          <button className="food">
+            <div className="button">
+              <img className="hibachi" src={qdoba} /> Qdoba
+            </div>
+          </button>
 
-          <button className="food">Qdoba</button>
+          <button className="food">
+            <div className="button">
+              <img className="hibachi" src={bricbreak} /> Bric Break
+            </div>
+          </button>
 
-        </div>
-
-        <div className="row2">
-
-          <button className="food">Bric Break</button>
-
-          <button className="food">Fit Bites</button>
-
-        </div>
+          <button className="food">
+            <div className="button">
+              <img className="hibachi" src={fitbites} /> Fit Bites
+            </div>
+          </button>
       
       </div>
       
