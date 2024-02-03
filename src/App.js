@@ -3,22 +3,42 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="base">
+      
+      <div className="header">
+        <div className="brelp">
+          Brelp
+        </div>
+      </div>
+
+      <div className="whole">
+        <div className="row1">
+
+          <div>
+            <button className="food">
+              <img className="hibachi" src="./images/hibachi.jpg" /> Hibachi-San
+            </button>
+          </div>
+          
+
+          <button className="food">Centerpointe</button>
+
+          <button className="food">Qdoba</button>
+
+        </div>
+
+        <div className="row2">
+
+          <button className="food">Bric Break</button>
+
+          <button className="food">Fit Bites</button>
+
+        </div>
+      
+      </div>
+      
     </div>
+    
   );
 }
 

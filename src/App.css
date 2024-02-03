@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: green;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.brelp {
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.whole {
+  margin-top: 15%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row1 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.food {
+  background-color: green;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white; 
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgb(233, 233, 233);
+  font-size: 50px;
+
+}
+
+.food:hover {
+  background-color: rgb(97, 138, 97);
+}
+
+.hibachi {
+  width: 50px;
+  height: 50px;
 }
